@@ -11,13 +11,13 @@
 
 ## 2. hadoop集群环境配置
 >  1.环境初始化
-   * bash /data/hadoop-config/cluster/cluster01/init-env.sh
+   * bash /data/hadoop-config/hadoop-2.7.7/cluster/cluster01/init-env.sh
 >  2.name节点初始化
    * hdfs namenode -format cluster01
    
 ## 3. hadoop伪分布式环境配置
 >  1.环境初始化
-   * bash /data/hadoop-config/pseudo/pseudo01/init-env.sh
+   * bash /data/hadoop-config/hadoop-2.7.7/pseudo/pseudo01/init-env.sh
 >  2.name节点初始化 
    * hdfs namenode -format pseudo01
 
