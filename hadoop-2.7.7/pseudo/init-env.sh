@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -rf /usr/local/hadoop/etc
+
 #创建集群使用的临时目录
 mkdir -p /data/hadoop/pseudo01/tmp
 #创建集群name节点使用的目录
