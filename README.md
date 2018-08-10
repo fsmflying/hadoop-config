@@ -4,6 +4,11 @@
 >  * cd /data
 >  * git clone https://github.com/fsmflying/hadoop-config.git
 >  * chown -R hadoop:hadoop /data/hadoop*
+>  * su - hadoop
+>  * chmod u+x /data/hadoop-config/hadoop-2.7.7/cluster/cluster01/*.sh
+>  * chmod u+x /data/hadoop-config/hadoop-2.7.7/cluster/cluster01/etc/hadoop/*.sh
+>  * chmod u+x /data/hadoop-config/hadoop-2.7.7/pseudo/pseudo01/*.sh
+>  * chmod u+x /data/hadoop-config/hadoop-2.7.7/pseudo/pseudo01/etc/hadoop/*.sh
 
 ## 2. hadoop集群环境配置
 >  1.环境初始化
