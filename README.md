@@ -1,7 +1,9 @@
 # hadoop-config
 ## 1.创建工作目录
->  * mkdir /data
+>  * mkdir -p /data/hadoop
+>  * cd /data
 >  * git clone https://github.com/fsmflying/hadoop-config.git
+>  * chown -R hadoop:hadoop /data/hadoop*
 
 ## 2. hadoop集群环境配置
 >  1.环境初始化
