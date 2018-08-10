@@ -20,7 +20,7 @@
     <!--副本数量-->
     <property>
         <name>dfs.replication</name>
-        <value>3</value>
+        <value>2</value>
     </property>
     <!--name节点存储位置-->
     <property>
