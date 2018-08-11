@@ -20,6 +20,8 @@
 # also should not be passed any arguments, since we need original $*
 
 # symlink and absolute path should rely on SPARK_HOME to resolve
+export JAVA_HOME=/usr/local/jdk/
+
 if [ -z "${SPARK_HOME}" ]; then
   export SPARK_HOME="$(cd "`dirname "$0"`"/..; pwd)"
 fi
