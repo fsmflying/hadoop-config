@@ -38,34 +38,4 @@
         <name>dfs.blocksize</name>
         <value>33554432</value>
     </property>
-    <!--dfs.namenode.handler.count-->
-    <!--<property>-->
-        <!--<name>dfs.namenode.handler.count</name>-->
-        <!--<value>100</value>-->
-    <!--</property>-->
-    <!--<property>-->
-        <!--<name>dfs.namenode.secondary.http-address</name>-->
-        <!--<value>master:9001</value>-->
-    <!--</property>-->
-    <!--<property>-->
-        <!--<name>dfs.webhdfs.enabled</name>-->
-        <!--<value>true</value>-->
-    <!--</property>-->
-    <!--<property>-->
-        <!--<name>dfs.permissions</name>-->
-        <!--<value>false</value>-->
-    <!--</property>-->
-
-    <!-- 设置namenode的http通讯地址 -->
-    <!--<property>-->
-        <!--<name>dfs.namenode.http-address</name>-->
-        <!--<value>master:50070</value>-->
-    <!--</property>-->
-    <!-- 设置secondarynamenode的http通讯地址 -->
-    <!--<property>-->
-        <!--<name>dfs.namenode.secondary.http-address</name>-->
-        <!--<value>slave1:50090</value>-->
-    <!--</property>-->
-
-
 </configuration>
