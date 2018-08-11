@@ -16,7 +16,7 @@
     <!-- 设置 resourcemanager 在哪个节点-->
     <property>
         <name>yarn.resourcemanager.hostname</name>
-        <value>master01.hadoop</value>
+        <value>master.hadoop</value>
     </property>
 
     <!-- reducer取数据的方式是mapreduce_shuffle -->

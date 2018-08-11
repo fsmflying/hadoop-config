@@ -1,6 +1,7 @@
 #!/bin/bash
 
 
+ssh hadoop@master.hadoop "rm -rf /data/hadoop/cluster01"
 #创建集群使用的临时目录
 ssh hadoop@master.hadoop "mkdir -p /data/hadoop/cluster01/tmp"
 #创建集群name节点使用的目录
