@@ -24,4 +24,6 @@
    * bash /data/hadoop-config/hadoop-2.7.7/pseudo/pseudo01/init-env.sh
 >  2.name节点初始化 
    * hdfs namenode -format pseudo01
+   
+
 
