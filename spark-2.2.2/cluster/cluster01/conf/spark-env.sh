@@ -67,3 +67,4 @@ export JAVA_HOME=/usr/local/jdk/
 export SPARK_DIST_CLASSPATH=$(/usr/local/hadoop/bin/hadoop classpath)
 export HADOOP_CONF_DIR=/usr/local/hadoop/etc/hadoop
 export SPARK_MASTER_IP=master.hadoop
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/hadoop/lib/native
